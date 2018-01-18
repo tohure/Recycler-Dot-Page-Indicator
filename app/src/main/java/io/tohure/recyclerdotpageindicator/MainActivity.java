@@ -18,4 +18,5 @@ public class MainActivity extends AppCompatActivity {
     private void init() {
         rvGallery = findViewById(R.id.rvGallery);
     }
+
 }
