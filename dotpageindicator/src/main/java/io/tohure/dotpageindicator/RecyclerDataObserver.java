@@ -6,11 +6,11 @@ import android.support.v7.widget.RecyclerView;
  * Created by tohure on 19/01/18.
  */
 
-public class DataObserver extends RecyclerView.AdapterDataObserver {
+class RecyclerDataObserver extends RecyclerView.AdapterDataObserver {
 
-    private DotPageIndicator dotPageIndicator;
+    private final DotPageIndicator dotPageIndicator;
 
-    DataObserver(DotPageIndicator dotPageIndicator) {
+    RecyclerDataObserver(DotPageIndicator dotPageIndicator) {
         this.dotPageIndicator = dotPageIndicator;
     }
 
